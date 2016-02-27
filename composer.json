@@ -1,0 +1,24 @@
+{
+    "name": "softtion/v1",
+    "description": "Librerias Softtion",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Daniel Andres Castillo Pedroza",
+            "email": "ing.dacastillop@gmail.com"
+        },
+        {
+            "name": "Fabian Andres Urrego Bohorquez",
+            "email": "ing.fabian.urrego@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {"Softtion\\": "libs"}
+    },
+    "require" : {
+        "php": ">=5.5.9"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.1.*"
+    }
+}
